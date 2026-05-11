@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/API/">
+    <Project Path="Clinic.API/Clinic.API.csproj" Id="55312ec5-a0a3-4759-9ae0-36dc1076fd0c" />
+  </Folder>
+  <Folder Name="/Core/">
+    <Project Path="Clinic.Application/Clinic.Application.csproj" Id="93bdceb3-19d9-42e3-8bdc-e8c5adbb2622" />
+    <Project Path="Clinic.Domain/Clinic.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Clinic.Persistence/Clinic.Persistence.csproj" Id="c4b893b0-a5a8-41bb-8b87-adc07033a427" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Clinc.Tests/Clinc.Tests.csproj" />
+  </Folder>
+</Solution>

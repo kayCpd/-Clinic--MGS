@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>8aa82a9e-2978-426a-b625-63f2a7fde42b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="10.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clinic.Application\Clinic.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Clinic.Persistence">
+      <HintPath>..\ClinicPersistence\obj\Debug\net10.0\ref\Clinic.Persistence.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
