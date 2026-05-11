@@ -1,0 +1,82 @@
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+out/
+publish/
+
+# =========================
+# User-specific files
+# =========================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Rider / VS Code / VS
+# =========================
+.vs/
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+appsettings.Development.json
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+packages/
+.nuget/
+
+# =========================
+# Test results
+# =========================
+TestResults/
+*.trx
+*.coverage
+
+# =========================
+# Dotnet tools
+# =========================
+.dotnet/
+
+# =========================
+# Entity Framework
+# =========================
+Migrations/*Snapshot.cs
+
+# =========================
+# Publish / deployment
+# =========================
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# =========================
+# Secrets
+# =========================
+secrets.json
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
